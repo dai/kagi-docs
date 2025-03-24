@@ -4,21 +4,21 @@
 
 ## コンテンツ
 
-- [ナレッジベースマップ](#ナレッジベースマップ)
-- [サポート](#サポート)
-  - [ディスカッション](#ディスカッション)
-  - [コミュニティ](#コミュニティ)
-- [コントリビューション](#コントリビューション)
-  - [課題 (Issues)](#課題-issues)
-  - [プルリクエスト](#プルリクエスト)
-  - [プルリクエストの作成](#プルリクエストの作成)
-- [ビルド](#ビルド)
+- [ナレッジベースマップ](#knowledgebase-map)
+- [サポート](#support)
+  - [ディスカッション](#discussions)
+  - [コミュニティ](#community)
+- [コントリビューション](#contributing)
+  - [課題 (Issues)](#issues)
+  - [プルリクエスト](#pull-requests)
+  - [プルリクエストの作成](#creating-a-pull-request)
+- [ビルド](#building)
 
 ## ナレッジベースマップ
 
 このリポジトリは、Kagi が開発した複数の製品に関するドキュメントを提供します。
 
-製品 | ドキュメント         | リポジトリディレクトリ
+製品 | ドキュメント         | リポ ディレクトリ
 --------|-----------------------|----------------
 [Kagi Search](https://kagi.com) | https://help.kagi.com/kagi | [kagi](https://github.com/kagisearch/kagi-docs/tree/main/docs/kagi)
 [Orion Browser](https://browser.kagi.com) | https://help.kagi.com/orion | [orion](https://github.com/kagisearch/kagi-docs/tree/main/docs/orion)
@@ -34,7 +34,7 @@
 - **お知らせ**: このリポジトリのドキュメントに関連する重要な更新情報を投稿します。
 - **Q&A**: ドキュメントや提供されているAPIについて議論したり質問したりできます。どこから始めればよいかわからない場合は、ここが最適です！
 
-ドキュメントやAPI以外のトピックについては、[コミュニティ](#コミュニティ)セクションに記載されている各製品の公式サポートをご参照ください。
+ドキュメントやAPI以外のトピックについては、[コミュニティ](#community)セクションに記載されている各製品の公式サポートをご参照ください。
 
 ### コミュニティ
 
@@ -83,7 +83,7 @@ Orion Browser | [orionfeedback.org](https://orionfeedback.org)
 
 1. このリポジトリを[フォーク](https://github.com/kagisearch/kagi-docs/fork)します
 2. ブランチを作成します: `git checkout -b username/my-cool-change`
-3. [ビルド](#ビルド)手順に従って、変更したいドキュメントをコンパイルします
+3. [ビルド](#building)手順に従って、変更したいドキュメントをコンパイルします
 4. 変更を加えます
 5. 変更をコミットします: `git -am 'Update documentation'`
 6. フォークにブランチをプッシュします: `git push origin username/my-cool-change`
