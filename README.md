@@ -1,119 +1,101 @@
-# Kagi Inc. Documentation
+# Kagi Inc. ドキュメント
 
-This repository contains open-source documentation for products made by Kagi Inc.
+このリポジトリには、Kagi Inc. が開発した製品のオープンソース ドキュメントが含まれています。
 
-## Contents
+## コンテンツ
 
-- [Knowledgebase Map](#knowledgebase-map)
-- [Support](#support)
-  - [Discussions](#discussions)
-  - [Community](#community)
-- [Contributing](#contributing)
-  - [Issues](#issues)
-  - [Pull Requests](#pull-requests)
-  - [Creating a Pull Request](#creating-a-pull-request)
-- [Building](#building)
+- [ナレッジベースマップ](#ナレッジベースマップ)
+- [サポート](#サポート)
+  - [ディスカッション](#ディスカッション)
+  - [コミュニティ](#コミュニティ)
+- [コントリビューション](#コントリビューション)
+  - [課題 (Issues)](#課題-issues)
+  - [プルリクエスト](#プルリクエスト)
+  - [プルリクエストの作成](#プルリクエストの作成)
+- [ビルド](#ビルド)
 
-## Knowledgebase Map
+## ナレッジベースマップ
 
-This repo serves documentation for multiple products developed by Kagi.
+このリポジトリは、Kagi が開発した複数の製品に関するドキュメントを提供します。
 
-Product | Documentation         | Repo Directory
+製品 | ドキュメント         | リポジトリディレクトリ
 --------|-----------------------|----------------
 [Kagi Search](https://kagi.com) | https://help.kagi.com/kagi | [kagi](https://github.com/kagisearch/kagi-docs/tree/main/docs/kagi)
 [Orion Browser](https://browser.kagi.com) | https://help.kagi.com/orion | [orion](https://github.com/kagisearch/kagi-docs/tree/main/docs/orion)
 
-Our documentation efforts are ongoing! We welcome your feedback and
-contributions - read on for details!
+私たちのドキュメント作成は進行中です！フィードバックやコントリビューションを歓迎します。詳細は以下をご覧ください！
 
-## Support
+## サポート
 
-### Discussions
+### ディスカッション
 
-On our [discussions](https://github.com/kagisearch/kagi-docs/discussions) page,
-you will find several categories:
+[ディスカッション](https://github.com/kagisearch/kagi-docs/discussions)ページでは、以下のカテゴリをご覧いただけます：
 
-- **Announcements**, where we will post important updates related to the
-  documentation in this repo.
+- **お知らせ**: このリポジトリのドキュメントに関連する重要な更新情報を投稿します。
+- **Q&A**: ドキュメントや提供されているAPIについて議論したり質問したりできます。どこから始めればよいかわからない場合は、ここが最適です！
 
-- **Q&A**, where you can discuss and ask questions about the documentation
-  and APIs that we offer. This is the best place to start if you're not sure
-  of a better place!
+ドキュメントやAPI以外のトピックについては、[コミュニティ](#コミュニティ)セクションに記載されている各製品の公式サポートをご参照ください。
 
-For topics outside of the documentation & APIs, please refer to that product's
-official support venues, in the [Community](#community) section.
+### コミュニティ
 
-### Community
+各製品には専用のフォーラムがあり、ぜひご参加ください。また、すべての製品について議論できる共有のDiscordサーバーもあります。
 
-Each of our products has their own forum, and we encourage you to join us there.
-We also have a shared Discord server where you can discuss all of our products.
+Discord招待リンク: https://kagi.com/discord
 
-Discord Invite: https://kagi.com/discord
-
-Product | Feedback & Bug Reports
+製品 | フィードバック & バグ報告
 --------|-----------------------
 Kagi Search | [kagifeedback.org](https://kagifeedback.org)
 Orion Browser | [orionfeedback.org](https://orionfeedback.org)
 
-## Contributing
+## コントリビューション
 
-### Issues
+### 課題 (Issues)
 
-We welcome any bug reports, requests for clarification, or other inquiries
-via the [Issues](https://github.com/kagisearch/kagi-docs/issues) tab.
+バグ報告、説明のリクエスト、その他の問い合わせは、[Issues](https://github.com/kagisearch/kagi-docs/issues)タブからお寄せください。
 
-Upon opening an issue, you will be presented with a list of templates to
-choose from that will help you provide us with the information we need,
-and triage the issue with the correct labels.
+課題を作成すると、必要な情報を提供するためのテンプレートが表示されます。これにより、適切なラベルで課題を分類できます。
 
-A staff member will review your issue, and help investigate what the best
-course of action is.
+スタッフが課題を確認し、最適な対応方法を検討します。
 
-### Pull Requests
+### プルリクエスト
 
-Thank you for taking the time to contribute!
+コントリビューションに時間を割いていただき、ありがとうございます！
 
-We welcome contributions such as:
+以下のようなコントリビューションを歓迎します：
 
-- Fixes to incorrect statements or inaccuracies within the documentation.
-- Extending documentation with details, or clarifying complicated explanations
-  with easier to understand wording.
-- Additions that fill gaps or missing pieces in the current documentation.
-- Fixing of spelling and grammatical errors in the documentation.
-- Adding new documentation when staff calls on the community to prepare new
-  sections.
+- ドキュメント内の誤った記述や不正確な情報の修正
+- 詳細の追加や、複雑な説明をより理解しやすい表現に変更
+- 現在のドキュメントに不足している部分の補完
+- ドキュメント内のスペルミスや文法エラーの修正
+- スタッフがコミュニティに新しいセクションの作成を呼びかけた場合の新しいドキュメントの追加
 
-We would ask that you withhold:
+以下のような変更は控えてください：
 
-- Whitespace or formatting changes.
-- Subjective wording changes.
-- Modifications to the overall structure and format of the documentation.
-- Additions needlessly restructure current documentation.
-- Additions that document unreleased product functionality.
+- 空白やフォーマットの変更
+- 主観的な表現の変更
+- ドキュメント全体の構造やフォーマットの変更
+- 現在のドキュメントを不必要に再構成する追加
+- 未リリースの製品機能を記載する追加
 
-If you are not sure, please feel free to [open an issue](https://github.com/kagisearch/kagi-docs/issues/new/choose)
-first, and we will help guide you along!
+不明な点がある場合は、まず[課題を作成](https://github.com/kagisearch/kagi-docs/issues/new/choose)してください。スタッフがガイドします！
 
-### Creating a Pull Request
+### プルリクエストの作成
 
-1. [Create a fork](https://github.com/kagisearch/kagi-docs/fork) of this repo
-2. Create a branch: `git checkout -b username/my-cool-change`
-3. Follow the [Building](#building) instructions to compile the book you would
-   like to change
-4. Make your changes
-5. Commit your changes: `git -am 'Update documentation'`
-6. Push the branch to your fork: `git push origin username/my-cool-change`
-7. Create a new Pull Request
+1. このリポジトリを[フォーク](https://github.com/kagisearch/kagi-docs/fork)します
+2. ブランチを作成します: `git checkout -b username/my-cool-change`
+3. [ビルド](#ビルド)手順に従って、変更したいドキュメントをコンパイルします
+4. 変更を加えます
+5. 変更をコミットします: `git -am 'Update documentation'`
+6. フォークにブランチをプッシュします: `git push origin username/my-cool-change`
+7. 新しいプルリクエストを作成します
 
-A template in the pull request form will guide you in providing any additional
-details we need to help accept your changes.
+プルリクエストフォームのテンプレートが、変更を受け入れるために必要な追加情報の提供をガイドします。
 
+## ビルド
 
-## Building
+Kagiのドキュメントは[Vitepress](https://vitepress.dev/)で生成されています。
 
-Kagi's docs generated by [Vitepress](https://vitepress.dev/).
-
-### Development on your localhost
+### ローカル環境での開発
 
     npm install
     npm run docs:dev
