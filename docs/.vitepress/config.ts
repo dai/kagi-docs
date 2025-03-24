@@ -11,7 +11,7 @@ export default defineConfig({
         ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png" }],
         ['link', { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#5bbad5" }],
         ['meta', { name: "msapplication-TileColor", content: "#ffffff" }],
-        ['meta', { name: "theme-color", content: "#ffffff" }],
+        ['meta', { property: "og:image", content: "https://help.kagi.com/og-image.png" }],
     ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
@@ -90,14 +90,7 @@ function sidebarKagi() {
                         { text: 'Products', link: '/kagi/company/products' },
                         { text: 'History', link: '/kagi/company/history' },
                         { text: 'Assets', link: '/kagi/company/assets' },
-                        {
-                            text: 'Jobs', link: '/kagi/company/hiring-kagi',
-                            collapsed: true,
-                            items: [
-                                { text: 'Jobs at Kagi Search', link: '/kagi/company/hiring-kagi' },
-                                { text: 'Jobs at Orion Browser', link: '/kagi/company/hiring-orion' },
-                            ]
-                        },
+			{ text: 'Jobs', link: '/kagi/company/hiring-kagi' },
                         { text: 'Open Source Support', link: '/kagi/company/donations' },
                         { text: 'Contact Us', link: '/kagi/company/contact' },
                     ]
@@ -125,17 +118,10 @@ function sidebarKagi() {
                         { text: 'Reporting a Bug', link: '/kagi/support-and-community/bug-reporting' },
                         { text: 'Email Support', link: '/kagi/support-and-community/email-support' },
                         { text: 'Share with Friends and Family', link: '/kagi/support-and-community/share-kagi' },
+                        { text: 'Community Doggos', link: '/kagi/support-and-community/doggos' },
                     ]
                 },
-                {
-                    text: 'Frequently Asked Questions',
-                    collapsed: true,
-                    link: '/kagi/faq/faq',
-                    items: [
-                        { text: 'General', link: '/kagi/faq/faq' },
-                        { text: 'Sales Tax / VAT', link: '/kagi/faq/sales-tax-vat' },
-                    ]
-                },
+                { text: 'Frequently Asked Questions', link: '/kagi/faq/sales-tax-vat' },
                 {
                     text: 'Contribute',
                     collapsed: true,
@@ -163,6 +149,8 @@ function sidebarKagi() {
                         { text: 'Privacy Protection', link: '/kagi/privacy/privacy-protection' },
                         { text: 'Private Browser Sessions', link: '/kagi/privacy/private-browser-sessions' },
                         { text: 'Two Factor Authentication', link: '/kagi/privacy/two-factor-authentication' },
+                        { text: 'Privacy Pass', link: '/kagi/privacy/privacy-pass' },
+                        { text: 'Using Kagi with Tor', link: '/kagi/privacy/tor' },
                         { text: 'Log in with QR Code', link: '/kagi/privacy/log-in-with-qr-code' },
                         { text: 'Content Policy', link: '/kagi/privacy/content-policy' },
                         { text: 'Security', link: '/kagi/privacy/security' },
@@ -194,6 +182,7 @@ function sidebarKagi() {
                         { text: 'Quick Start', link: '/kagi/getting-started/' },
                         { text: 'Set Kagi as Your Default Search Engine', link: '/kagi/getting-started/setting-default' },
                         { text: 'Application Integrations', link: '/kagi/getting-started/application-integrations' },
+                        { text: 'Accessing via Tor', link: '/kagi/getting-started/accessing-via-tor' },
                     ]
                 },
                 {
@@ -230,6 +219,7 @@ function sidebarKagi() {
                         { text: 'Kagi Translate', link: '/kagi/ai/translate' },
                         { text: 'Discuss Document', link: '/kagi/ai/ask-questions' },
                         { text: 'Kagi LLM Benchmarking Project', link: '/kagi/ai/llm-benchmark' },
+                        { text: 'LLMs & Privacy', link: '/kagi/ai/llms-privacy' },
                     ]
                 },
                 {
@@ -365,6 +355,8 @@ function sidebarOrion() {
                         { text: 'Installing Orion', link: '/orion/getting-started/installing-orion' },
                         { text: 'Importing Data From Other Browsers', link: '/orion/getting-started/importing' },
                         { text: 'Default Search Engine', link: '/orion/getting-started/search-engine' },
+                        { text: 'Application Integrations', link: '/orion/getting-started/application-integrations' },
+                        { text: 'Accessing via Tor', link: '/kagi/getting-started/accessing-via-tor' },
                     ]
                 },
                 {
@@ -439,6 +431,7 @@ function sidebarOrion() {
                     link: '/orion/privacy-and-security/ad-tracking-blocking',
                     items: [
                         { text: 'Configure Ad & Tracking Blocking', link: '/orion/privacy-and-security/ad-tracking-blocking' },
+			                  { text: 'Orion and Ad-blocking Tests', link: '/orion/privacy-and-security/adblock-tests' },
                         { text: 'Respecting Privacy', link: '/orion/privacy-and-security/respecting-privacy' },
                         { text: 'Protecting Privacy', link: '/orion/privacy-and-security/protecting-privacy' },
                         { text: 'Preventing Fingerprinting', link: '/orion/privacy-and-security/preventing-fingerprinting' },

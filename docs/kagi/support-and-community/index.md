@@ -23,15 +23,25 @@ We are always eager to hear what new users think of Kagi.
 To make specific feature requests or bug reports, please use our [Kagi Search feedback forum](https://kagifeedback.org) rather than Discord.
 
 ## Social Media
-- [KagiHQ on Twitter](https://twitter.com/KagiHQ)
+- [KagiHQ on X](https://twitter.com/KagiHQ)
 
 - [KagiHQ on Mastodon](https://mastodon.social/@KagiHQ)
 
 - [Kagi.com on Bluesky](https://bsky.app/profile/kagi.com)
 
+- [Kagi on YouTube](https://www.youtube.com/@KagiInc)
+
+- [Kagi on LinkedIn](https://www.linkedin.com/company/kagi-inc/)
+
 - [Kagi.com on Threads](https://threads.net/@kagihq)
 
 - [KagiHQ on Instagram](https://instagram.com/kagihq)
+
+- [Kagi on Pixelfed](https://pixelfed.social/Kagi)
+
+- [Kagi on PeerTube](https://tilvids.com/c/kagi_channel/videos)
+
+- [Kagi on Nostr](https://primal.net/p/npub1xsgymm0ne3vndqpvsvy285qfpu59049t5n5twg9vetmt92cyn95snyzazx)
 
 ## Feedback Forum
 

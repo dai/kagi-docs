@@ -24,9 +24,20 @@ Once applied, the theme will instantly update Kagi's appearance. You can switch 
 
 **Note:** Some themes might work better with a certain Dark Mode or Light Mode default theme selected in the [**Appearance Settings**](https://kagi.com/settings?p=appearance) page.
 
+### Kagi Courvix Dark
+by [Jeyso215](https://github.com/jeyso215)
+
+[**Get it**](https://gist.github.com/Jeyso215/76fd67b17d2407aa91a619fabc665887)
+
+| ![Kagi Courvix Dark Theme](./themes/media/results-page.png){ data-zoomable width="350px" style="display: block; margin: 0 auto" } | ![Kagi Courvix Dark Theme](./themes/media/search-home.png){ data-zoomable width="350px" style="display: block; margin: 0 auto"} |
+|---:|---:|
+| ![Kagi Courvix Dark Theme](./themes/media/results-page.png){data-zoomable width="100px" style="display: block; margin: 0 auto"} | ![Dark Mustard Theme](./themes/media/search-home.png){data-zoomable width="100px" style="display: block; margin: 0 auto"} |
+
+<br>
+
 ### Dark Mustard
 
-by [Josh Ellington](https://github.com/joshellington/)  
+by [Josh Ellington](https://github.com/joshellington/)
 
 [**Get it**](https://gist.github.com/joshellington/51765a15d8f780089619b638fc6aea6b)
 
@@ -159,6 +170,24 @@ by [auphone](https://auphone.net/)
 | ![Kagi Gruvbox Dark Theme](./themes/media/kagi_gruvbox_dark_desktop_1.png){ data-zoomable width="350px" style="display: block; margin: 0 auto" } | ![Kagi Gruvbox Dark Theme](./themes/media/kagi_gruvbox_dark_desktop_2.png){ data-zoomable width="350px" style="display: block; margin: 0 auto"} |
 |---:|---:|
 | ![Kagi Gruvbox Dark Theme](./themes/media/kagi_gruvbox_dark_mobile_1.png){data-zoomable width="100px" style="display: block; margin: 0 auto"} | ![Kagi Gruvbox Dark Theme](./themes/media/kagi_gruvbox_dark_mobile_2.png){data-zoomable width="100px" style="display: block; margin: 0 auto"} |
+
+
+<br>
+
+---
+
+<br>
+
+
+### Kagi Darker
+
+by [realrogue](https://github.com/realrogue/kagi-darker/)  
+
+[**Get it**](https://github.com/realrogue/kagi-darker/releases/)
+
+| ![Kagi Darker Theme](./themes/media/roguedarker_dimages.jpg){ data-zoomable width="350px" style="display: block; margin: 0 auto" } | ![Kagi Darker Theme](./themes/media/roguedarker_dsearch.jpg){ data-zoomable width="350px" style="display: block; margin: 0 auto"} |
+|---:|---:|
+| ![Kagi Darker Theme](./themes/media/roguedarker_dsearchcomplete.jpg){data-zoomable width="100px" style="display: block; margin: 0 auto"} | ![Kagi Darker Theme](./themes/media/roguedarker_iphone.png){data-zoomable width="100px" style="display: block; margin: 0 auto"} |
 
 
 <br>
@@ -315,6 +344,27 @@ by rasti
 ---
 
 <br>
+
+
+
+### Kagi Catppuccin Mocha
+
+by [jcrabapple](https://github.com/jcrabapple/)  
+
+[**Get it**](https://repo.jcrabapple.com/jcrabapple/82208449e52b434a8e695c8124fa3f79)
+
+| ![Kagi Catppuccin Mocha Theme](./themes/media/kagi_catppuccin_mocha_desktop_1.png){ data-zoomable width="350px" style="display: block; margin: 0 auto" } | ![Kagi Catppuccin Mocha Theme](./themes/media/kagi_catppuccin_mocha_desktop_2.png){ data-zoomable width="350px" style="display: block; margin: 0 auto"} |
+|---:|---:|
+| ![Kagi Catppuccin Mocha Theme](./themes/media/kagi_catppuccin_mocha_mobile_1.png){data-zoomable width="100px" style="display: block; margin: 0 auto"} | ![Kagi Catppuccin Mocha Theme](./themes/media/kagi_catppuccin_mocha_mobile_2.png){data-zoomable width="100px" style="display: block; margin: 0 auto"} |
+
+
+<br>
+
+---
+
+<br>
+
+
 
 You can collaborate on themes on the [Kagi Discord](https://kagi.com/discord) server or the community-managed [subreddit](https://www.reddit.com/r/KagiUserCSS/).
 

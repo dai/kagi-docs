@@ -1,7 +1,8 @@
 # The real cost of "free" search
 
-You're already paying for search.
-Just not with money.
+Everyone pays for search. The difference is whether you're paying with your attention, time, and private data - or with your wallet.
+
+![Kagi Comic 11](https://github.com/user-attachments/assets/16fd01f2-389d-4193-a0b3-cfe233c56824)
 
 ## The hidden price tag
 
@@ -21,6 +22,7 @@ Every dollar spent makes your search results:
 > — [The Anatomy of a Large-Scale Hypertextual Web Search Engine](http://infolab.stanford.edu/pub/papers/google.pdf), Sergey Brin and Lawrence Page, 1998
 
 They predicted this crisis. Then Google transformed from organizing the world's information to organizing the world's ads. The result? A [great deterioration of web and search](https://dkb.io/post/DEPR_google-search-is-dying) that affects us all.
+
 
 ## The true cost in numbers
 

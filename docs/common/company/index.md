@@ -36,12 +36,6 @@ We hope that our work impacts people's lives in some small way for the better. T
 >
 > —Vladimir Prelovac
 
-## Contact
-
-Kagi Inc.\
-Palo Alto, CA, USA\
-Email: vlad@kagi.com\
-Phone: 650 535-2700
 
 ## What Does "Kagi" Mean?
 
@@ -71,3 +65,12 @@ More Orion assets are available on the [Orion Press Kit](https://browser.kagi.co
 We simply call him ”Doggo” for now. He's adorable! We have more [assets](https://kagi.com/assets) available.
 
 <img src="./media/doggo_1.png" width="350" alt="Doggo Kagi Mascot">
+
+## Contact
+
+Kagi Inc.\
+548 Market St\
+PMB 477946\
+San Francisco, CA 94104-5401\
+Email: vlad@kagi.com (CEO)\
+Email: support@kagi.com (Support)

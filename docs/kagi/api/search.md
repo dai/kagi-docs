@@ -2,8 +2,7 @@
 
 The Search API gives programmable access to Kagi's premium search results.
 
-> **NOTE:** The Search API is in closed beta and is currently available to Kagi Business (Team) plan.
-> This is currently $19/mo plus search API cost (2.5c per search). Please reach out to support@kagi.com for invite.
+> **NOTE:** The Search API is in closed beta and available upon request. Please reach out to support@kagi.com for invite.
 >
 > We plan to release this API to all Kagi members after the beta period.
 
@@ -24,10 +23,9 @@ Click "Generate API Token".
 
 ## Pricing
 
-The Kagi Search API incurs a search just like it would if you were normally searching on Kagi.
-This counts towards your metered searches and will be billed accordingly.
+The Kagi Search API is priced at $25 for 1000 queries (2.5 cents per search).
 
-Based on the current 2.5c per search cost, Kagi Search API is priced at $25 for 1000 queries. 
+You can add funds to your API balance from the [API Billing panel](https://kagi.com/settings?p=billing_api).
 
 ## SDK
 
